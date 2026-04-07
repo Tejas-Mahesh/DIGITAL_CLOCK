@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Days styling */
+.days {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.days span.active {
+    color: #00ffcc;
+    font-weight: bold;
+    opacity: 1;
+}
+
+/* Clock styling */
+.clock {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#seconds {
+    font-size: 30px;
+    vertical-align: super;
+    color: #00ffcc;
+}
