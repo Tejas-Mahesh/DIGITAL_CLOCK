@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Digital Clock</title>
-    <link rel="stylesheet" href="DIGITAL_CLOCK.css">
+    <title>Advanced Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-    
+
     <!-- Days -->
     <div class="days">
         <span>Sun</span>
@@ -20,15 +20,29 @@
         <span>Sat</span>
     </div>
 
-    <!-- Time -->
-    <div class="clock">
-        <span id="hours">00</span>:
-        <span id="minutes">00</span>
-        <span id="seconds">00</span>
+    <div class="clock-box">
+        
+        <!-- Time -->
+        <div class="clock">
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="ampm"></span>
+        </div>
+
+        <!-- Date -->
+        <div class="date" id="date"></div>
+
+        <!-- Timezone -->
+        <div class="timezone" id="timezone"></div>
+
+        <!-- Toggle -->
+        <button id="toggleFormat">Switch to 12H</button>
+
     </div>
 
 </div>
 
-<script src="DIGITAL_CLOCK.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

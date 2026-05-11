@@ -15,7 +15,7 @@ body {
     gap: 40px;
 }
 
-/* Days styling */
+/* Days */
 .days {
     display: flex;
     flex-direction: column;
@@ -30,15 +30,54 @@ body {
     opacity: 1;
 }
 
-/* Clock styling */
+/* Clock Box */
+.clock-box {
+    text-align: center;
+}
+
+/* Time */
 .clock {
     font-size: 70px;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 #seconds {
     font-size: 30px;
     vertical-align: super;
     color: #00ffcc;
+}
+
+#ampm {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* Date */
+.date {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+/* Timezone */
+.timezone {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: none;
+    background: #00ffcc;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00ccaa;
 }
