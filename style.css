@@ -54,7 +54,9 @@ body {
 
 /* Date */
 .date {
-    
+    margin-top: 11px;
+   font-size: 19px;
+    opacity: 0.8; 
 }
 
 /* Timezone */
