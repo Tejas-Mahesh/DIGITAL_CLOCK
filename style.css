@@ -68,7 +68,14 @@ body {
 
 /* Button */
 button {
-
+    margin-top: 15px;
+    padding: 9px 15px;
+    border: none;
+    background: #00ffcc;
+    color: black;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 button:hover {
