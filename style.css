@@ -48,21 +48,21 @@ body {
 }
 
 #ampm {
-    font-size: 21px;
-    margin-left: 5px;   
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 /* Date */
 .date {
     margin-top: 10px;
-   font-size: 18px;
-   opacity: 0.8;
+    font-size: 18px;
+    opacity: 0.8;
 }
 
 /* Timezone */
 .timezone {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 14px;
     opacity: 0.6;
 }
 
