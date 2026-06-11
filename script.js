@@ -24,18 +24,7 @@ function updateClock() {
     document.getElementById("seconds").textContent = seconds;
     document.getElementById("ampm").textContent = ampm;
 
-    // Highlight day
-    const days = document.querySelectorAll(".days span");
-    days.forEach(day => day.classList.remove("active"));
-    days[now.getDay()].classList.add("active");
 
-    // Date
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById("date").textContent = now.toLocaleDateString(undefined, options);
-
-    // Timezone
-    document.getElementById("timezone").textContent =
-        Intl.DateTimeFormat().resolvedOptions().timeZone;
 }
 
 // Toggle format
